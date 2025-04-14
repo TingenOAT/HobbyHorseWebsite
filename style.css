@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 70px; /* Adjust padding to move content below the banner */
+    margin-top: 0; /* Remove margin to avoid double spacing */
+}
+
+h1 {
+    color: #333;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: #af927e;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Reduced padding to make the banner narrower */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    width: 200px;
+    position: fixed;
+    top: 70px; /* Move the menu bar below the banner */
+    left: 0;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav ul li ul {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+nav ul li ul li {
+    margin-bottom: 5px;
+}
+
+nav ul li ul li a {
+    font-weight: normal;
+}
