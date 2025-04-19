@@ -15,17 +15,18 @@ function loadHtml(id, file) {
     xhttp.send();
     }
 }
-
-let slideIndex = 0;
-
-function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+let photoList = [
+    "/images/frontpage/girl1.png",
+    "/images/frontpage/girl2.png",
+    "/images/frontpage/girl3.png"
+];
+let photoIndex = 0;
+function changePhoto() {
+    let photo = document.getElementById("photo");
+    photo.src = photoList[photoIndex];
+    photoIndex = (photoIndex + 1) % photoList.length;
 }
+function startPhotoChange() {
+    setInterval(changePhoto, 3000); // Change photo every 3 seconds
+}
+startPhotoChange();
