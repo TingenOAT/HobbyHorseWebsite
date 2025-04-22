@@ -12,6 +12,7 @@ h1 {
     font-size: 35px;
     text-align: center;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -100,11 +101,20 @@ nav ul li ul li a {
   padding: 20px;
   text-align: center;
   background-color: #f3e5e5;
-  height: 600px; /* Set a fixed height for the boxes */
+  height: 300; 
 }
 .product{
   width: 70%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 10px;
+}
+.full-width-box {
+    margin: 0 30px;
+    border: 2px solid #f3e5e5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3e5e5;
+    height: 600;
 }
