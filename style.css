@@ -30,6 +30,14 @@ header {
     align-items: center;
 }
 
+.shopping-cart {
+    max-width: 50px;
+    filter: invert(100%);
+    float: right;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 17px;
+    }
 
 nav {
     width: 200px;
@@ -137,21 +145,21 @@ nav ul li ul li a {
     background-color: #f3e5e5;
     min-height: 1000; }
 
-    .horse-box img {
-        max-width: 90%; /* Ensure the image doesn't overflow the box */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove inline spacing issues */
-        margin: 0 auto; /* Center the image */
-    }
-    .prices {
-        font-size: 20px;
-        color: #333;
-        margin-top: 10px;
-        font-weight: bold;
-        text-align: center;
-    }
-    .bullet-points {
-        text-align: left;
-        margin-top: 10px;
-        font-size: 16px;
-    }
+.horse-box img {
+    max-width: 90%; /* Ensure the image doesn't overflow the box */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing issues */
+    margin: 0 auto; /* Center the image */
+}
+.prices {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.bullet-points {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+}
