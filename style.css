@@ -30,6 +30,15 @@ header {
     align-items: center;
 }
 
+.shopping-cart {
+    max-width: 50px;
+    filter: invert(100%);
+    float: right;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 17px;
+    }
+
 nav {
     width: 200px;
     position: fixed;
@@ -136,29 +145,58 @@ nav ul li ul li a {
     background-color: #f3e5e5;
     min-height: 1000; }
 
-    .horse-box img {
-        max-width: 90%; /* Ensure the image doesn't overflow the box */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove inline spacing issues */
-        margin: 0 auto; /* Center the image */
-    }
-    .prices {
-        font-size: 20px;
-        color: #333;
-        margin-top: 10px;
-        font-weight: bold;
-        text-align: center;
-    }
-    .bullet-points {
-        text-align: left;
-        margin-top: 10px;
-        font-size: 16px;
-    }
-    .shopping-cart {
-        max-width: 50px;
-        filter: invert(100%);
-        float: right;
-        text-align: right;
-        padding-right: 50px;
-        font-size: 17px;
-        }
+.horse-box img {
+    max-width: 90%; /* Ensure the image doesn't overflow the box */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing issues */
+    margin: 0 auto; /* Center the image */
+}
+.prices {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.bullet-points {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.tablepicture {
+    border: 2px solid #f3e5e5;
+    border-radius: 15px;
+    background-color: #f3e5e5;
+    margin-top: 15px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 0;
+}
+.tabletext {
+    border: 2px solid #f3e5e5;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    color: #333;
+    margin-top: 0px;
+    text-align: left;
+}
+.shoppic {
+    width: 70%;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    float: center;
+    margin-right: 10px;
+    padding: none;
+}
+.text-wrapper {
+    width: 300px;
+    word-wrap: break-word;
+    text-align: left;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
