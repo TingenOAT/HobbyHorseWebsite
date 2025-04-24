@@ -152,3 +152,40 @@ nav ul li ul li a {
         margin-top: 10px;
         font-size: 16px;
     }
+
+.tablepicture {
+    border: 2px solid #f3e5e5;
+    border-radius: 15px;
+    background-color: #f3e5e5;
+    margin-top: 15px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 0;
+}
+.tabletext {
+    border: 2px solid #f3e5e5;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    color: #333;
+    margin-top: 0px;
+    text-align: left;
+}
+.shoppic {
+    width: 70%;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    float: center;
+    margin-right: 10px;
+    padding: none;
+}
+.text-wrapper {
+    width: 300px;
+    word-wrap: break-word;
+    text-align: left;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
