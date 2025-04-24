@@ -200,3 +200,29 @@ table {
     border-collapse: separate;
     border-spacing: 15px;
 }
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    margin-left: 240px;
+    text-align: left;
+    color: white;
+  }
+  .footer-table {width: 100%;
+    border: 1px;
+    border-collapse: collapse;
+}
+  .footer-table td {
+    width: 33%;
+    border-spacing: 50px;
+    text-align: left;
+    vertical-align: text-top;
+  }
+  .footer-table td h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+  }
+ .footer-table a {
+    color: white;
+ }
